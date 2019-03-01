@@ -15,6 +15,11 @@ export class ModuleBComponent implements OnInit {
   ngOnInit() {
     console.log('module B ngOnInit');
     console.log(this.route.snapshot.data);
+
+    const foo = () => {
+
+    };
+    foo();
   }
 
 }
